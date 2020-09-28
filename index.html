@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <title>CS4241 Assignment 2</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <h1>
+      To-Do List
+    </h1>
+    <form action="">
+      <label for="ftask">Task To Do:</label><br />
+      <input type="text" id="task" /><br />
+
+      <label for="fdate">Date to Complete:</label><br />
+      <input type="date" id="date" /><br />
+
+      <label for="ftime">Time to Start:</label><br />
+      <input type="time" id="time" /><br />
+      <button id="submit">Submit</button>
+    </form>
+
+    <table style="width:100%">
+      <caption>
+        To Do List
+      </caption>
+      <tr>
+        <th>Task</th>
+        <th>Date</th>
+        <th>Time</th>
+      </tr>
+      <script>dataTable();</script>
+    </table>
+
+    <button id="results">Results</button><br />
+    <button id="add">Add</button><br />
+    <button id="edit">Edit</button><br />
+    <button id="delete">Delete</button>
+  </body>
+
+</html>
