@@ -1,30 +1,24 @@
-# hello-express
+Assignment 3 - Persistence: Two-tier Web Application with Database, Express server, and CSS template
+Due: September 28th, by 11:59 PM.
 
-A server that serves a webpage, its resources, and some data
+Sample Readme (delete the above when you're ready to submit, and modify the below so with your links and descriptions)
+Your Web Application Title
+your glitch (or alternative server) link e.g. https://glitch.com/~a3-nicole-cotto
 
+Include a very brief summary of your project here. Images are encouraged, along with concise, high-level text. Be sure to include:
 
-## Your Project
+The goal of this application was to create a page that someone can add, delete, and edit items that they want to do.
+The challenges I came across were figuring out how to use Express correctly.
+I went with the easiest options I could.
+I used the wings CSS framework. I liked the aesthetic of it and felt it worked for the simplicity of teh application.
+I attempted to use teh Express packages, but wasn't able to implement them.
+Timeout gives a timeout session for the application.
+Body-parse parses incoming request bodies.
+Session stores data in its id.
+Response-time tells you the elapsed time for a given request.
+Cookie-parse populates request cookies with an object keyed by the cookie names.
 
-On the front-end,
-
-- Edit `views/index.html` to change the content of the webpage
-- `public/client.js` is the javacript that runs when you load the webpage
-- `public/style.css` is the styles for `views/index.html`
-- Drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
-
-
-## Made by [Glitch](https://glitch.com/)
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
-
-( ᵔ ᴥ ᵔ )
+Technical Achievements
+Tech Achievement 1:
+Design/Evaluation Achievements
+Design Achievement 1:
